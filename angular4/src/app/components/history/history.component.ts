@@ -8,22 +8,22 @@ import { DataService } from '../../services/data.service';
 })
 
 export class HistoryComponent implements OnInit {
-    article: Article[];
+    posts: Post[];
 
-  constructor(private DataService:DataService) {
+  constructor(private dataService:DataService) {
     console.log("constructor ran...");
 }
 
   ngOnInit() {
-      this.dataService.getArticle().subscribe((article) => {
-          this.article = article;
+      this.dataService.getPost().subscribe((posts) => {
+          this.posts = posts;
       })
   }
 
 
 }
 
-interface Article {
+interface Post {
     id: number,
     title: string,
     body: string

@@ -1,4 +1,9 @@
 
 <section>
     <h1>Read about our history</h1>
+    <div *ngFor = "let post of posts">
+        <p>
+            {{post.body}}
+        </p>
+    </div>
 </section>

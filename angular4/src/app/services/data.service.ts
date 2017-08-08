@@ -9,7 +9,7 @@ export class DataService {
        console.log("Data service conected");
     }
 
-  getAtricle() {
+  getPost() {
       return this.http.get("https://jsonplaceholder.typicode.com/posts")
       .map(res => res.json())
   }

@@ -1,0 +1,16 @@
+<nav>
+    <ul>
+        <li><a routerLink = "/">Home</a></li>
+        <li><a routerLink = "/about">About</a></li>
+        <li>
+            <a routerLink = "/history">History</a>
+            <ul>
+                <li class = "startLink"><a routerLink = "/history/start">Start</a></li>
+                <li class = "nowLink"><a routerLink = "/history/now">Now</a></li>
+
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<router-outlet></router-outlet>

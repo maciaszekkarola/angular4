@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HistoryComponent } from './components/history/history.component';
 import { StartComponent } from './components/history/start/start.component';
 import { NowComponent } from './components/history/now/now.component';
+import { ContentComponent } from './components/content/content.component';
 
 const appRoutes: Routes = [
     {path:"", component: HomeComponent},
@@ -27,8 +28,8 @@ const appRoutes: Routes = [
     HomeComponent,
     HistoryComponent,
     StartComponent,
-    NowComponent
-
+    NowComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,

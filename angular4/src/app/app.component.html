@@ -1,16 +1,20 @@
 <nav>
-    <ul>
-        <li><a routerLink = "/">Home</a></li>
-        <li><a routerLink = "/about">About</a></li>
-        <li>
-            <a routerLink = "/history">History</a>
+    <div class = "container">
+        <div>
+            <img src="./assets/QM.png" alt="some logo">
+        </div>
+        <div>
             <ul>
-                <li class = "startLink"><a routerLink = "/history/start">Start</a></li>
-                <li class = "nowLink"><a routerLink = "/history/now">Now</a></li>
-
+                <li><a routerLink = "/">Home</a></li>
+                <li><a routerLink = "/about">About</a></li>
+                <li>
+                    <a routerLink = "/history">History</a>
+                </li>
             </ul>
-        </li>
-    </ul>
+
+        </div>
+
+    </div>
 </nav>
 
 <router-outlet></router-outlet>

@@ -8,16 +8,13 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { HistoryComponent } from './components/history/history.component';
-import { StartComponent } from './components/history/start/start.component';
-import { NowComponent } from './components/history/now/now.component';
 import { ContentComponent } from './components/content/content.component';
+import { HeaderComponent } from './components/header/header.component';
 
 const appRoutes: Routes = [
     {path:"", component: HomeComponent},
     {path:"about", component: AboutComponent},
     {path:"history", component: HistoryComponent},
-    {path:"history/start", component: StartComponent},
-    {path:"history/now", component: NowComponent},
 
 ];
 
@@ -27,9 +24,8 @@ const appRoutes: Routes = [
     AboutComponent,
     HomeComponent,
     HistoryComponent,
-    StartComponent,
-    NowComponent,
     ContentComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

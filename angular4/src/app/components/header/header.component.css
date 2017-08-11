@@ -1,0 +1,13 @@
+img {
+    width: 25%;
+    display: flex;
+}
+h1 {
+    display: flex;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
